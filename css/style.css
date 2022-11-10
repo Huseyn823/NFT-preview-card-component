@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    max-width: 360px;
+    margin: 10rem auto;
+    padding: 25px 25px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0rem 2rem 0 1rem rgb(12, 23, 41);
+    position: relative;
+}
+.image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.title{
+    justify-content: space-between;
+}
+span svg{
+    margin-right: 5px;
+}
+.avatar{
+    padding: 13px 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.avatar img{
+    max-width: 12%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.text > *{
+    margin: 25px 0;
+}
+h3{
+    width: fit-content;
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+a:hover{
+    color: cyan;
+}
+.image img{
+    cursor: pointer;
+}
+.image{
+    position: relative;
+}
+.image div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsl(178, 100%, 50%, 0.3);
+    width: 100%;
+    height: 98%;
+    border-radius: 10px;
+    display: none;
+}
+.image svg{
+    margin: 43%;
+}
+.image img:hover + div{
+    display: block;
+}
+
+@media(max-width: 375px){
+    .container{
+        margin: 3rem auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
